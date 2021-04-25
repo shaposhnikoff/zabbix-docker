@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - 'trunk'
-      - 'master'
-      - 'main'      
     paths:
       - "*/*/README.md"
   workflow_dispatch:
