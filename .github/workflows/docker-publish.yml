@@ -5,6 +5,7 @@ on:
     # Publish `master` as Docker `latest` image.
     branches:
       - master
+      - 5.2
 
     # Publish `v1.2.3` tags as releases.
     tags:
